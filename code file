@@ -81,7 +81,7 @@ def game(console, chosen_word):
     console.print(*full_wordle_pattern, sep="\n")
 
 # Main execution block
-if _name_ == "_main_":
+if __name__ == "__main__":
     console = Console()
     chosen_word = choice(word_list)  # Select a random word from the word list
     console.print(WELCOME_MESSAGE)
