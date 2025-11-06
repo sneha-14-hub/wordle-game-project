@@ -39,8 +39,9 @@ Each guess is color-coded using Rich:
 
 2. Install dependencies:
 
-   bash
+   ```bash
    pip install rich
+   ```
    
 
 3. Run the game:
